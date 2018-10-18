@@ -18,6 +18,6 @@ public class Frame extends JFrame {
         setSize(640,480);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
-        JOptionPane.showMessageDialog(null, "Halo");
+        JOptionPane.showMessageDialog(null, "Hallo");
     }
 }
