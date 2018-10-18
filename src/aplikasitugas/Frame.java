@@ -5,18 +5,17 @@
  */
 package aplikasitugas;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author mirza
  */
-public class AplikasiTugas {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        Frame frame = new Frame();
+public class Frame extends JFrame {
+    public Frame(){
+        setTitle("Frame");
+        setSize(640,480);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setVisible(true);
     }
-    
 }
