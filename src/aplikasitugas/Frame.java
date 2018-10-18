@@ -6,6 +6,7 @@
 package aplikasitugas;
 
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -17,5 +18,6 @@ public class Frame extends JFrame {
         setSize(640,480);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
+        JOptionPane.showMessageDialog(null, "Halo");
     }
 }
